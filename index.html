@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArenaHub - Booking Sports Courts Made Easier and Faster</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="text-slate-200 antialiased overflow-x-hidden">
+
+    <header class="fixed top-0 left-0 w-full bg-[#060913]/80 backdrop-blur-md z-50 border-b border-slate-900">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-xl font-extrabold tracking-tight text-white">Arena<span class="text-blue-500">Hub</span></span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-white transition">About Us</a>
+                <a href="#features" class="hover:text-white transition">Powerful Features</a>
+                <a href="#how-it-works" class="hover:text-white transition">How It Works</a>
+                <a href="#courts" class="hover:text-white transition">Featured Courts</a>
+                <a href="#testimonials" class="hover:text-white transition">Testimonials</a>
+                <a href="#faq" class="hover:text-white transition">FAQ</a>
+            </nav>
+            <div>
+                <a href="#courts" class="text-sm font-semibold bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-lg transition shadow-lg shadow-blue-600/20">
+                    Book Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="max-w-7xl mx-auto px-6 pt-32 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen">
+        <div class="space-y-6 max-w-xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight tracking-tight">
+                Booking Sports Courts <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Made Easier and Faster</span>
+            </h1>
+            <p class="text-slate-400 text-base md:text-lg leading-relaxed">
+                Experience the future of sports scheduling. ArenaHub brings premium court facilities directly to your fingertips with a seamless and intuitive booking experience.
+            </p>
+            <div class="pt-2">
+                <a href="#courts" class="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 font-semibold group transition text-lg">
+                    <span>Find a Court Now</span>
+                    <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="relative flex justify-center lg:justify-end">
+            <div class="absolute -inset-4 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-2xl opacity-20 blur-2xl"></div>
+            <div class="relative w-full max-w-lg aspect-[16/10] rounded-2xl border border-slate-800 bg-slate-900/60 p-4 shadow-2xl overflow-hidden">
+                
+                <div id="hero-carousel" class="relative w-full h-full rounded-xl overflow-hidden">
+                    <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-1000 ease-in-out">
+                        <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop" alt="Padel" class="w-full h-full object-cover brightness-75">
+                    </div>
+                    <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=800&auto=format&fit=crop" alt="Basket" class="w-full h-full object-cover brightness-75">
+                    </div>
+                    <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=800&auto=format&fit=crop" alt="Futsal" class="w-full h-full object-cover brightness-75">
+                    </div>
+                    <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                        <img src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=800&auto=format&fit=crop" alt="Badminton" class="w-full h-full object-cover brightness-75">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="max-w-4xl mx-auto px-6 mb-28 scroll-mt-24">
+        <div class="bg-[#0f1524] border border-slate-800/80 rounded-2xl p-8 md:p-10 text-center relative shadow-xl">
+            <h2 class="text-2xl font-bold text-white mb-4">About ArenaHub</h2>
+            <p class="text-slate-400 leading-relaxed max-w-2xl mx-auto text-sm md:text-base">
+                ArenaHub is an online sports court booking platform that makes it easy for users to find, book, and manage court schedules in real-time. We combine modern technology with premium sports facilities for the ultimate convenience of your athletic activities.
+            </p>
+        </div>
+    </section>
+
+    <section id="features" class="max-w-7xl mx-auto px-6 mb-32 scroll-mt-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white tracking-tight">Powerful Features</h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 hover:border-slate-700 transition">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2">Find Nearby Courts</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Instantly discover premium sports facilities around your location with real-time availability.</p>
+            </div>
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 hover:border-slate-700 transition">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2">Online Schedule Booking</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Secure your favorite practice time slot directly without the hassle of calling the management.</p>
+            </div>
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 hover:border-slate-700 transition">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2">Digital Payment</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Fast, secure, and automated digital payment transactions for your maximum convenience.</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 max-w-4xl mx-auto">
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 hover:border-slate-700 transition">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2">Booking History</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Track your past game history and easily re-book your favorite courts.</p>
+            </div>
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 hover:border-slate-700 transition">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2">Booking Notifications</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Receive timely reminders and automatic updates about your upcoming match schedules.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="max-w-7xl mx-auto px-6 mb-32 scroll-mt-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white tracking-tight">How It Works</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-[#0f1524]/60 border border-slate-800/60 rounded-xl p-6 relative">
+                <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-300 mb-4">1</div>
+                <h3 class="text-base font-semibold text-white mb-1">Choose a Court</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">Select the type of sport and available premium courts.</p>
+            </div>
+            <div class="bg-[#0f1524]/60 border border-slate-800/60 rounded-xl p-6 relative">
+                <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-300 mb-4">2</div>
+                <h3 class="text-base font-semibold text-white mb-1">Get the Schedule</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">Determine the perfect time slot for your team.</p>
+            </div>
+            <div class="bg-[#0f1524]/60 border border-slate-800/60 rounded-xl p-6 relative">
+                <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-300 mb-4">3</div>
+                <h3 class="text-base font-semibold text-white mb-1">Make a Payment</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">Complete your transaction securely through the digital payment gateway.</p>
+            </div>
+            <div class="bg-green-950/20 border border-green-500/30 rounded-xl p-6 relative shadow-lg shadow-green-500/5">
+                <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-xs font-bold text-green-400 mb-4">✓</div>
+                <h3 class="text-base font-semibold text-green-400 mb-1">Booking Successful</h3>
+                <p class="text-green-500/70 text-xs leading-relaxed">Booking confirmed! Prepare your best performance on the court.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courts" class="max-w-7xl mx-auto px-6 mb-32 scroll-mt-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white tracking-tight">Featured Courts</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-2xl overflow-hidden group shadow-lg flex flex-col justify-between">
+                <div>
+                    <div class="h-48 overflow-hidden relative card-carousel">
+                        <div class="card-slide absolute inset-0 opacity-100 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=500&auto=format&fit=crop" alt="Futsal 1" class="w-full h-full object-cover">
+                        </div>
+                        <div class="card-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=500&auto=format&fit=crop" alt="Futsal 2" class="w-full h-full object-cover">
+                        </div>
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-yellow-400 font-semibold text-xs px-2 py-1 rounded flex items-center space-x-1 z-10">
+                            <span>★</span> <span>4.8</span>
+                        </span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-base font-bold text-white mb-1">Futsal Court A</h3>
+                        <p class="text-slate-400 text-xs flex items-center">
+                            <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                            Downtown Arena
+                        </p>
+                    </div>
+                </div>
+                <div class="p-5 pt-0">
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-800/60">
+                        <div>
+                            <span class="text-base font-bold text-white">$25.00</span>
+                            <span class="text-slate-500 text-[11px]">/ hr</span>
+                        </div>
+                        <a href="#" class="text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white px-3 py-2 rounded-lg transition">Book</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-2xl overflow-hidden group shadow-lg flex flex-col justify-between">
+                <div>
+                    <div class="h-48 overflow-hidden relative card-carousel">
+                        <div class="card-slide absolute inset-0 opacity-100 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=500&auto=format&fit=crop" alt="Badminton 1" class="w-full h-full object-cover">
+                        </div>
+                        <div class="card-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1613918431201-3849114f17ed?q=80&w=500&auto=format&fit=crop" alt="Badminton 2" class="w-full h-full object-cover">
+                        </div>
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-yellow-400 font-semibold text-xs px-2 py-1 rounded flex items-center space-x-1 z-10">
+                            <span>★</span> <span>4.9</span>
+                        </span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-base font-bold text-white mb-1">Badminton Court B</h3>
+                        <p class="text-slate-400 text-xs flex items-center">
+                            <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                            Rainbow Complex
+                        </p>
+                    </div>
+                </div>
+                <div class="p-5 pt-0">
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-800/60">
+                        <div>
+                            <span class="text-base font-bold text-white">$20.00</span>
+                            <span class="text-slate-500 text-[11px]">/ hr</span>
+                        </div>
+                        <a href="#" class="text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white px-3 py-2 rounded-lg transition">Book</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-2xl overflow-hidden group shadow-lg flex flex-col justify-between">
+                <div>
+                    <div class="h-48 overflow-hidden relative card-carousel">
+                        <div class="card-slide absolute inset-0 opacity-100 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=500&auto=format&fit=crop" alt="Basket 1" class="w-full h-full object-cover">
+                        </div>
+                        <div class="card-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1505666287802-931dc83948e9?q=80&w=500&auto=format&fit=crop" alt="Basket 2" class="w-full h-full object-cover">
+                        </div>
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-yellow-400 font-semibold text-xs px-2 py-1 rounded flex items-center space-x-1 z-10">
+                            <span>★</span> <span>5.0</span>
+                        </span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-base font-bold text-white mb-1">Basketball Court C</h3>
+                        <p class="text-slate-400 text-xs flex items-center">
+                            <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                            Pro Hoop Center
+                        </p>
+                    </div>
+                </div>
+                <div class="p-5 pt-0">
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-800/60">
+                        <div>
+                            <span class="text-base font-bold text-white">$35.00</span>
+                            <span class="text-slate-500 text-[11px]">/ hr</span>
+                        </div>
+                        <a href="#" class="text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white px-3 py-2 rounded-lg transition">Book</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-2xl overflow-hidden group shadow-lg flex flex-col justify-between">
+                <div>
+                    <div class="h-48 overflow-hidden relative card-carousel">
+                        <div class="card-slide absolute inset-0 opacity-100 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=500&auto=format&fit=crop" alt="Padel 1" class="w-full h-full object-cover">
+                        </div>
+                        <div class="card-slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1592709823125-a191f07a2a5e?q=80&w=500&auto=format&fit=crop" alt="Padel 2" class="w-full h-full object-cover">
+                        </div>
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-yellow-400 font-semibold text-xs px-2 py-1 rounded flex items-center space-x-1 z-10">
+                            <span>★</span> <span>4.9</span>
+                        </span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-base font-bold text-white mb-1">Padel Court D</h3>
+                        <p class="text-slate-400 text-xs flex items-center">
+                            <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                            Elite Smash Padel
+                        </p>
+                    </div>
+                </div>
+                <div class="p-5 pt-0">
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-800/60">
+                        <div>
+                            <span class="text-base font-bold text-white">$40.00</span>
+                            <span class="text-slate-500 text-[11px]">/ hr</span>
+                        </div>
+                        <a href="#" class="text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white px-3 py-2 rounded-lg transition">Book</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="testimonials" class="max-w-7xl mx-auto px-6 mb-32 scroll-mt-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white tracking-tight">What Our Players Say</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 shadow-md flex flex-col justify-between">
+                <p class="text-slate-300 italic text-sm leading-relaxed mb-6">
+                    "The booking process is very fast and responsive. I managed to find an available court perfect for a weekend match with co-workers in just a matter of minutes."
+                </p>
+                <div class="flex items-center space-x-3">
+                    <div class="w-9 h-9 rounded-full bg-blue-500/20 flex items-center justify-center font-bold text-xs text-blue-400">R</div>
+                    <div>
+                        <h4 class="text-xs font-bold text-white">Rani</h4>
+                        <p class="text-[11px] text-slate-500">Forward Player</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#0f1524] border border-slate-800/60 rounded-xl p-6 shadow-md flex flex-col justify-between">
+                <p class="text-slate-300 italic text-sm leading-relaxed mb-6">
+                    "The schedule shown in the system is always up-to-date and transparent. I have never experienced any double-booking issues since switching to the ArenaHub platform."
+                </p>
+                <div class="flex items-center space-x-3">
+                    <div class="w-9 h-9 rounded-full bg-indigo-500/20 flex items-center justify-center font-bold text-xs text-indigo-400">P</div>
+                    <div>
+                        <h4 class="text-xs font-bold text-white">Picha</h4>
+                        <p class="text-[11px] text-slate-500">Badminton Enthusiast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-6 mb-32">
+        <div class="bg-[#0f1524] border border-slate-800/60 rounded-2xl p-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800/60 shadow-xl">
+            <div class="pt-4 md:pt-0">
+                <p class="text-3xl font-extrabold text-white">500+</p>
+                <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Active Users</p>
+            </div>
+            <div class="pt-6 md:pt-0">
+                <p class="text-3xl font-extrabold text-white">1000+</p>
+                <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Successful Bookings</p>
+            </div>
+            <div class="pt-6 md:pt-0">
+                <p class="text-3xl font-extrabold text-green-400">50+</p>
+                <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Court Partners</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="max-w-3xl mx-auto px-6 mb-32 scroll-mt-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white tracking-tight">Frequently Asked Questions</h2>
+        </div>
+        <div class="space-y-4">
+            <div class="bg-[#0f1524] border border-slate-800/80 rounded-xl overflow-hidden">
+                <button class="w-full p-5 text-left font-semibold text-sm md:text-base text-white flex items-center justify-between hover:bg-slate-800/20 transition">
+                    <span>How do I book a court?</span>
+                    <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </button>
+            </div>
+            <div class="bg-[#0f1524] border border-slate-800/80 rounded-xl overflow-hidden">
+                <button class="w-full p-5 text-left font-semibold text-sm md:text-base text-white flex items-center justify-between hover:bg-slate-800/20 transition">
+                    <span>What payment methods are supported?</span>
+                    <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </button>
+            </div>
+            <div class="bg-[#0f1524] border border-slate-800/80 rounded-xl overflow-hidden">
+                <button class="w-full p-5 text-left font-semibold text-sm md:text-base text-white flex items-center justify-between hover:bg-slate-800/20 transition">
+                    <span>Can a booking be rescheduled or canceled?</span>
+                    <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 mb-32 text-center">
+        <div class="space-y-6">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Ready to Book Your Favorite Court?</h2>
+            <div class="pt-2">
+                <a href="#courts" class="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 font-semibold group transition text-lg">
+                    <span>Book Now</span>
+                    <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-900 bg-[#04060d] py-12 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-6 space-y-6">
+            <p class="text-sm font-bold text-white">Arena<span class="text-blue-500">Hub</span></p>
+            <div class="flex flex-wrap items-center justify-center gap-6 text-slate-400 font-medium">
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition">Terms of Service</a>
+                <a href="#" class="hover:text-white transition">Contact Us</a>
+                <a href="#" class="hover:text-white transition">Partner Program</a>
+            </div>
+            <p class="pt-2 text-[11px] text-slate-600">© 2026 ArenaHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

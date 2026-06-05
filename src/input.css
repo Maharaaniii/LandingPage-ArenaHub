@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles ArenaHub */
+html {
+    scroll-behavior: smooth;
+    background-color: #060913;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Specific styling for seamless fade carousels */
+.hero-slide.opacity-100, .card-slide.opacity-100 {
+    opacity: 1;
+    z-index: 10;
+}
+
+.hero-slide.opacity-0, .card-slide.opacity-0 {
+    opacity: 0;
+    z-index: 0;
+}
